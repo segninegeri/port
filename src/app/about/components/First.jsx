@@ -26,7 +26,7 @@ function First() {
   );
 
   return (
-    <main ref={containerRef} className="relative " >
+    <main ref={containerRef} className="relative h-screen overflow-x-hidden" >
       {/* Rotating Image */}
       <MotionImage
         styleProps={{ rotate }}
