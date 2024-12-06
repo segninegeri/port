@@ -1,0 +1,22 @@
+.title {
+  position: relative;
+  span {
+    display: flex;
+    align-items: center;
+    .imageContainer {
+      width: 100px;
+      height: 100px;
+      position: relative;
+      border-radius: 50%;
+      overflow: hidden;
+
+      img {
+        object-fit: cover;
+      }
+    }
+    h2 {
+      margin-left: 0.3rem;
+    }
+  }
+ 
+}

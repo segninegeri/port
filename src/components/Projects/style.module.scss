@@ -1,0 +1,16 @@
+.main {
+  background-color: black;
+  position: relative;
+}
+
+.imageContainer {
+  // width: 100px;
+  // height: 100px;
+  position: relative;
+  border-radius: 50%;
+  overflow: hidden;
+
+  img {
+    object-fit: cover;
+  }
+}

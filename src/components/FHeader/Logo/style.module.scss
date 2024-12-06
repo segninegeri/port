@@ -1,0 +1,14 @@
+
+.line {
+    stroke: #fff;
+    stroke-width: 1;
+    fill: transparent;
+    stroke-dasharray: 3200;
+    stroke-dashoffset: 3200;
+    animation: animate 15s ease-in-out 5s forwards;
+}
+@keyframes animate {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
