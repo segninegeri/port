@@ -31,7 +31,7 @@ const y = useTransform(scrollYProgress, [0, 1], [-500, 0]);
     {
       src: "/images/socials/linkedin.svg",
       alt: "LinkedIn",
-      href: "https://www.linkedin.com/in/jalal-girma-663090340/",
+      href: "https://www.linkedin.com/in/jalal-girma",
     },
     {
       src: "/images/socials/twitter.svg",
@@ -65,7 +65,6 @@ const y = useTransform(scrollYProgress, [0, 1], [-500, 0]);
   return (
     <>
       <motion.main
-        // variants={slideUp}
         initial="initial"
         animate="enter"
         className={styles.landing}
@@ -74,13 +73,13 @@ const y = useTransform(scrollYProgress, [0, 1], [-500, 0]);
           ref={container}
           style={{ x }}
           variants={slideUp}
-          className="absolute bottom-12 left-6"
+          className="absolute bottom-16 left-8 "
         >
           {socialLinks.map((link) => (
             <Magnet key={link.href}>
               <motion.div
                 variants={slideUp}
-                className={`${styles.imageContainer} w-8 h-8 my-6`}
+                className={`${styles.imageContainer} w-12 h-12 my-12`}
               >
                 <a href={link.href} target="_blank" rel="noopener noreferrer">
                   <Image src={link.src} alt={link.alt} fill />

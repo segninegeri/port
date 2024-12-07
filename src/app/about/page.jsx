@@ -23,7 +23,7 @@ function Index() {
   }, []);
 
   return (
-    <div className="pt-20 bg-black">
+    <div className="pt-24 bg-black font-ablition">
       <First />
       <Second />
       <Third />

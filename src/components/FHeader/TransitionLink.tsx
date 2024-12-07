@@ -19,7 +19,7 @@ const TransitionLink = ({ href, label }: Props) => {
 
   return (
     <button
-      className="text-xl text-white"
+      className="text-3xl text-white"
       onClick={handleClick}
     >
       {label}

@@ -4,11 +4,10 @@
   z-index: 1;
   top: 0;
   color: white;
-  padding: 35px;
+  padding: 10px 35px;
   justify-content: space-between;
   width: 100%;
   align-items: center;
-
   .logo {
     display: flex;
     cursor: pointer;
@@ -18,7 +17,7 @@
     }
   }
   .nav {
-    width: 80%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -41,5 +40,10 @@
     &::after {
       width: 100%;
     }
+  }
+}
+@media (max-width: 375px) {
+  .header {
+    padding: 15px 10px;
   }
 }

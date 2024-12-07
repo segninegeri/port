@@ -34,10 +34,10 @@ export default function Home() {
       <motion.div
         ref={container}
         style={{ x }}
-        className=" text-center text-5xl  md:text-7xl bg-black text-white z-[1] stroke flex justify-center items-center -space-x-3"
+        className={`${styles.work} font-ablition text-center  bg-black text-white z-[1] stroke flex justify-center items-center -space-x-3`}
       >
         <p className="m-0 p-0">Selected W</p>
-        <div className={`${styles.imageContainer} w-16 h-16 md:w-24 md:h-24`}>
+        <div className={`${styles.imageContainer}`}>
           <Image src="/images/O.png" alt="" fill className="p-0 m-0" />
         </div>
         <p className="m-0 p-0"> rk</p>

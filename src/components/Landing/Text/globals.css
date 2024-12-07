@@ -1,16 +1,13 @@
 .demo-main {
   width: 100vw;
-  /* height: 100vh; */
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0;
-  margin-top: 2rem;
-  font-family: 'font-maron';
+  margin-top: 4rem;
+
 }
-/* .stagger{
-    margin-bottom: 10px;
-} */
+
 .demo-main {
   width: 100vw;
   height: 100vh;

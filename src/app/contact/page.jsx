@@ -8,7 +8,7 @@ import style from "@/common/ScrollHover/style.module.css";
 
 // SocialLinks Component
 const SocialLinks = ({ links }) => (
-  <div className="flex justify-around mb-12">
+  <div className="flex justify-around mb-14">
     {links.map((link) => (
       <Magnet key={link.href}>
         <div className={`${styles.imageContainer}`}>
@@ -23,11 +23,11 @@ const SocialLinks = ({ links }) => (
 
 // SectionHeader Component
 const SectionHeader = ({ title }) => (
-  <h1 className="text-3xl flex items-center justify-center mb-6">
+  <h1 className="text-4xl flex items-center justify-center mb-6">
     <svg width="150px" height="2" xmlns="http://www.w3.org/2000/svg">
       <line x1="0" y1="1" x2="150" y2="1" stroke="white" strokeWidth="2" />
     </svg>
-    <span className="mx-4">{title}</span>
+    <span className="mx-6">{title}</span>
     <svg width="150px" height="2" xmlns="http://www.w3.org/2000/svg">
       <line x1="0" y1="1" x2="150" y2="1" stroke="white" strokeWidth="2" />
     </svg>
@@ -65,21 +65,21 @@ const Info = () => {
   ];
 
   return (
-    <div className="flex flex-col justify-between bg-black pt-44 px-12 text-white h-screen">
+    <div className="flex flex-col justify-between bg-black pt-64 px-12 text-white h-screen font-ablition">
       {/* Contact Details Section */}
-      <div className="text-2xl leading-10">
+      <div className="text-4xl leading-10">
         <SectionHeader title="Contact Details" />
 
-        <div>
+        <div className="mt-12">
           <ScrollHover>
             <a
               href="mailto:falalgirma33@gmail.com"
-              className={`${style.text} font-bold  bg-black text-xl text-white hover:bg-white hover:text-black`}
+              className={`${style.text} font-bold  bg-black text-4xl text-white hover:bg-white hover:text-black`}
             >
               <p>Email</p>
               <p>jalalgirma.dev@gmail.com</p>
               <span
-                className={`${style.span} font-bold  bg-white text-xl text-black`}
+                className={`${style.span} font-bold  bg-white text-3xl text-black`}
               >
                 100% chance I read it
               </span>
@@ -87,16 +87,16 @@ const Info = () => {
           </ScrollHover>
         </div>
 
-        <div>
+        <div className="mt-12">
           <ScrollHover>
             <a
               href="tel:+251917643045"
-              className={`${style.text} font-bold   bg-black text-xl text-white hover:bg-white hover:text-black`}
+              className={`${style.text} font-bold   bg-black text-4xl text-white hover:bg-white hover:text-black`}
             >
               <p>Give Me a Call Anytime</p>
               <p>+251 917 643 045</p>
               <span
-                className={`${style.span} font-bold  bg-white text-xl text-black`}
+                className={`${style.span} font-bold  bg-white text-3xl text-black`}
               >
                 100% chance I pick up
               </span>
@@ -111,8 +111,8 @@ const Info = () => {
 
       {/* Work Together Section */}
       <div className="overflow-y-hidden">
-        <h1 className="text-custom2 p-0">Let's work</h1>
-        <h1 className="text-custom2 text-right">together</h1>
+        <h1 className="text-custom3 p-0">Let's work</h1>
+        <h1 className="text-custom3 text-right">together</h1>
       </div>
     </div>
   );

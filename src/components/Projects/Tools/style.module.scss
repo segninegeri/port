@@ -5,6 +5,7 @@
   justify-content: center;
   position: sticky;
   top: 0px;
+  font-family: var(--font-ablition);
   .card {
     color: #fff;
     outline: 1px solid white;
@@ -15,13 +16,23 @@
     height: 500px;
     width: 1000px;
     border-radius: 25px;
-    padding: 3.125rem 2rem;
+    padding: 3.125rem 2.4rem;
     transform-origin: top;
     z-index: -90;
     h2 {
       text-align: center;
       margin: 0px;
       font-size: 28px;
+    }
+    @media (max-width: 480px) {
+      h2 {
+        font-size: 2rem;
+      }
+    }
+    @media (max-width: 250px) {
+      h2 {
+        font-size: 1.5rem;
+      }
     }
     .body {
       display: flex;
@@ -34,10 +45,12 @@
         position: relative;
         top: 2%;
         p {
-          font-weight: bold;
+          line-height: 1.1;
+          font-weight: normal;
           &::first-letter {
             font-size: 28px;
-            font-family: "Title";
+            font-weight: bolder;
+            text-decoration: dotted;
           }
         }
         span {

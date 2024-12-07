@@ -4,8 +4,7 @@ function Jalal() {
   return (
     <div>
       <svg
-        width="160"
-        height="120"
+        className={styles.svg}
         viewBox="0 0 360 176"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

@@ -2,37 +2,36 @@
 import Image from "next/image";
 import React from "react";
 import Text from "./Tools/Index";
+import styles from "./style.module.scss";
 function Index() {
   return (
-    <div className=" h-[80vh] bg-black flex items-center">
+    <div className="font-ablition h-screen border-b text-white text-4xl flex items-center justify-center px-12">
       <div
         data-scroll
-        data-scroll-speed={0.3}
-        className="hidden md:flex h-96 flex-1  items-center justify-end relative -top-24 z-10"
+        data-scroll-speed={0.1}
+        className="hidden md:block relative -top-96 text-5xl left-32 z-10 font-extrabold"
       >
-        <p className="relative -right-8 text-4xl z-30 text-white text-center ">
-          Wanna know <br /> 'bout me?
-        </p>
+        'wanna know <br />
+        about me?{" "}
       </div>
-      <div
-        data-scroll
-        data-scroll-speed={0.5}
-        className="hidden md:block h-96 flex-1 relative"
-      >
-        <Image
+      <div className="hidden md:flex h-full  w-1/4 items-center relative bottom-24 ">
+        <div
           data-scroll
-          data-scroll-speed={0.1}
-          src="/images/photo_2024-11-24_07-10-34.jpg"
-          alt="Office Studio"
-          layout="fill"
-          objectFit="cover"
-          className="h-full "
-        />
+          data-scroll-speed={1}
+          className={`${styles.imageContainer}  h-3/4 flex-1 `}
+        >
+          <Image
+            src={"/images/photo_2024-11-24_07-10-34.jpg"}
+            alt=""
+            fill
+            className="object-cover "
+          />
+        </div>
       </div>
       <div
         data-scroll
-        data-scroll-speed={0.5}
-        className="h-96 md:w-1/2  md:self-center flex md:items-end items-center text-white text-xl md:mb-48 mx-12"
+        data-scroll-speed={1}
+        className="md:w-1/2 relative md:self-center mx-6 "
       >
         <Text />
       </div>

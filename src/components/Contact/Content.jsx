@@ -11,7 +11,7 @@ const SocialLinks = ({ links }) => (
   <div className="flex justify-around">
     {links.map((link) => (
       <Magnet key={link.href}>
-        <div className={`${styles.imageContainer} invert w-8 h-8 my-4`}>
+        <div className={`${styles.imageContainer} invert w-16 h-16 my-4`}>
           <a href={link.href} target="_blank" rel="noopener noreferrer">
             <Image src={link.src} alt={link.alt} fill />
           </a>
@@ -23,14 +23,14 @@ const SocialLinks = ({ links }) => (
 
 // Title Section Component
 const TitleSection = ({ title, subtitle, imageSrc }) => (
-  <div className={styles.title}>
-    <span>
-      <div className={styles.imageContainer}>
-        <Image fill={true} alt={"image"} src={imageSrc} />
-      </div>
-      <h2 className="text-4xl">{title}</h2>
-    </span>
-    <h2 className="text-4xl">{subtitle}</h2>
+  <div className="flex gap-4 items-center ">
+    <div className={`${styles.imageContainer} ${styles.resImg}`}>
+      <Image fill={true} alt={"image"} src={imageSrc} />
+    </div>
+    <div>
+      <h2 className={`${styles.resText}`}>{title}</h2>
+      <h2 className={`${styles.resText}`}>{subtitle}</h2>
+    </div>
   </div>
 );
 
@@ -45,7 +45,7 @@ export default function Content() {
     {
       src: "/images/socials/linkedin.svg",
       alt: "LinkedIn",
-      href: "https://www.linkedin.com/in/jalal-girma-663090340/",
+      href: "https://www.linkedin.com/in/jalal-girma/",
     },
     {
       src: "/images/socials/twitter.svg",
@@ -60,8 +60,8 @@ export default function Content() {
   ];
 
   return (
-    <div className="bg-white text-black h-full w-full flex flex-col justify-evenly">
-      <div className="px-[9rem] font-extrabold">
+    <div className="bg-white text-black h-full w-full flex flex-col justify-evenly font-ablition">
+      <div className={`${styles.pad} font-extrabold`}>
         <TitleSection
           title="Let's work"
           subtitle="together"
@@ -74,8 +74,8 @@ export default function Content() {
           <Footer />
         </div>
         <div>
-          <Link href={'/contact'}>
-          <Button href={"#"}>Get in hand</Button>
+          <Link href={"/contact"}>
+            <Button href={"#"}>Get in hand</Button>
           </Link>
         </div>
       </div>

@@ -16,7 +16,7 @@ export default function Index() {
       ref={description}
       className={styles.description}
     >
-      <div className={`${styles.body} text-3xl`}>
+      <div className={`${styles.body} ${styles.res}  text-5xl `}>
         <p>
           {phrase.split(" ").map((word, index) => {
             return (

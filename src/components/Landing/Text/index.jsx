@@ -11,14 +11,13 @@ const Index = () => {
   });
 
   return (
-    <div className="demo-main ">
+    <div className="demo-main pb-36 md:pb-0 font-giorgia">
       <div>
         <div className="stroke m-6 transform -translate-x-1/4">
           <StaggerTextChange
             text={"TURNING VISION"}
-            fontFamily={"font-ablition"}
             fontWeight={"lighter"}
-            fontSize={6}
+            fontSize={6.3}
             duration={0.9}
             unit={"vw"}
             changeTo={"CREATING ELEGANT  "}
@@ -29,7 +28,7 @@ const Index = () => {
           <StaggerTextChange
             text={" INTO REALITY "}
             fontWeight={"lighter"}
-            fontSize={6}
+            fontSize={6.5}
             duration={0.9}
             unit={"vw"}
             changeTo={"WEB SOLUTIONS  "}
@@ -40,7 +39,7 @@ const Index = () => {
           <StaggerTextChange
             text={"WITH  FLAWLESS  "}
             fontWeight={"lighter"}
-            fontSize={6}
+            fontSize={6.5}
             duration={0.9}
             unit={"vw"}
             changeTo={"THAT ACCELERATE  "}
@@ -51,7 +50,7 @@ const Index = () => {
           <StaggerTextChange
             text={"WEB SOLUTIONS"}
             fontWeight={"lighter"}
-            fontSize={6}
+            fontSize={6.5}
             duration={0.9}
             unit={"vw"}
             changeTo={"YOUR SUCCESS"}

@@ -26,29 +26,32 @@ function First() {
   );
 
   return (
-    <main ref={containerRef} className="relative h-screen overflow-x-hidden" >
+    <main
+      ref={containerRef}
+      className="relative h-screen overflow-x-hidden pt-16"
+    >
       {/* Rotating Image */}
       <MotionImage
         styleProps={{ rotate }}
-        className=" absolute top-[4rem] right-0"
+        className=" absolute top-[6rem] right-24"
         src="/images/Abstract Shape 64 (white on black).png"
         alt="Rotating Abstract Shape"
-        size=" w-44 h-44 md:w-72 md:h-72"
+        size="w-64 h-64 md:w-72 md:h-72"
       />
 
       {/* Moving Image */}
       <MotionImage
         styleProps={{ y: yTransform }}
-        className="hidden lg:block absolute bottom-[6rem] left-[1px]"
+        className="hidden lg:block absolute bottom-[6rem] left-[20px]"
         src="/images/Abstract Shape 81 (white on black).png"
         alt="Moving Abstract Shape"
-        size="w-56 h-56"
+        size="w-72 h-72"
       />
 
       {/* Text Section */}
       <div className="h-screen  flex justify-center items-center">
         <div className="text-white text-center">
-          {["Creative", "Front-end", "", "backend", "developer"].map(
+          {["Creative", "Front-end", "&", "backend", "developer"].map(
             (word, idx) => (
               <span key={idx} className="text-custom block lg:text-custom2">
                 {word}

@@ -45,8 +45,8 @@ const Card = ({
           {title}
         </motion.h2>
         <div className={styles.body}>
-          <div className={`${styles.description} text-[16px] lg:text-xl`}>
-            <p>{description}</p>
+          <div className={styles.description}>
+            <p className="text-3xl lg:text-4xl">{description}</p>
             <span className="mt-4">
               <Button href={live}>Take a look</Button>
             </span>

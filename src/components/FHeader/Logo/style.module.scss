@@ -1,14 +1,35 @@
-
+.svg {
+    height: 180px;
+    width: 180px;
+}
 .line {
     stroke: #fff;
     stroke-width: 1;
     fill: transparent;
     stroke-dasharray: 3200;
     stroke-dashoffset: 3200;
-    animation: animate 15s ease-in-out 5s forwards;
+    animation: animate 15s ease-in-out 7s forwards;
 }
 @keyframes animate {
     to {
         stroke-dashoffset: 0;
     }
+}
+@media (max-width: 550px) {
+  .svg {
+    height: 130px; /* Adjusted size */
+    width: 130px;  /* Adjusted size */
+  }
+}
+@media (max-width: 410px) {
+  .svg {
+    height: 100px; /* Adjusted size */
+    width: 100px;  /* Adjusted size */
+  }
+}
+@media (max-width: 320px) {
+  .svg {
+    height: 70px; /* Adjusted size */
+    width: 70px;  /* Adjusted size */
+  }
 }

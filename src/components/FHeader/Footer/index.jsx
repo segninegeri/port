@@ -4,7 +4,7 @@ import styles from "@/common/ScrollHover/style.module.css";
 
 function index() {
   return (
-    <div className="flex flex-col justify-around hidden md:flex">
+    <div className=" flex-col justify-around hidden md:flex">
       <div>
         <ScrollHover>
           <a

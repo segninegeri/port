@@ -16,7 +16,7 @@ export default function Index() {
 
   return (
     <>
-      <div ref={header} className={`${styles.header} `}>
+      <div ref={header} className={`${styles.header} font-ablition`}>
         <div className={styles.logo}>
           <TransitionLink href="/" label={<Jalal />} />
         </div>

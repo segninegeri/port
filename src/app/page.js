@@ -1,5 +1,4 @@
 'use client';
-import styles from './page.module.scss'
 import { useEffect, useState } from 'react'
 import { AnimatePresence } from 'framer-motion';
 import Preloader from '../components/Preloader';
@@ -27,7 +26,7 @@ export default function Home() {
   }, [])
 
   return (
-    <main className={`${styles.main}` }>
+    <main className='bg-black'>
       <AnimatePresence mode='wait'>
         {isLoading && <Preloader />}
       </AnimatePresence>

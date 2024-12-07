@@ -3,12 +3,12 @@ import style from "./second.module.scss";
 
 const ServiceCard = ({ number, title, icon, description }) => (
   <div className="text-center">
-    <p className="text-lg text-white font-medium mb-4">{number}</p>
-    <hr className="border-gray-300 mb-6" />
-    <h3 className="text-3xl font-bold text-white mb-4">
+    <p className="text-4xl text-white font-bold mb-6">{number}</p>
+    <hr className="border-gray-300 mb-12" />
+    <h3 className="text-6xl font-bold text-white mb-8">
       {icon} {title}
     </h3>
-    <p className="text-white   text-xl font-bold">{description}</p>
+    <p className="text-white text-3xl leading-normal font-bold">{description}</p>
   </div>
 );
 
@@ -16,7 +16,7 @@ function Third() {
   return (
     <div className="py-16 px-8">
       {/* Section Title */}
-      <h2 className="text-4xl md:text-5xl font-bold text-white text-center mb-16">
+      <h2 className="text-4xl md:text-7xl font-bold text-white text-center mb-16">
         I can help you with ...
       </h2>
 
@@ -46,7 +46,7 @@ function Third() {
 
       <div className="mt-12 text-center">
         <h2
-          className={`${style.stroke} text-white text-4xl md:text-6xl font-bold leading-snug mb-4`}
+          className={`${style.stroke} text-white text-5xl md:text-7xl font-bold leading-normal mb-6`}
         >
           You bring the vision, <br /> I help you stand out.
         </h2>

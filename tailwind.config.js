@@ -9,13 +9,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
-    fontFamily: {
-      dancePartner: ["var(--font-dancePartner)"],
-      ablition: ["var(--font-ablition)"]
-    }
+    extend: {
+      fontFamily: {
+        giorgia: ["var(--font-giorgia)"],
+        ablition: ["var(--font-ablition)"]
+      }
+    },
   },
   plugins: [
-    
+
   ],
 }

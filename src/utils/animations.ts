@@ -1,6 +1,7 @@
 import gsap from "gsap"
-import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime"
+// import { useRouter } from "next/navigation"
 
+import { AppRouterInstance } from "next/dist/shared/lib/app-router-context"
 export const animatePageIn = () => {
   const bannerOne = document.getElementById("banner-1")
   const bannerTwo = document.getElementById("banner-2")
@@ -31,6 +32,7 @@ export const animatePageOut = (href: string, router: AppRouterInstance) => {
     tl.set([bannerOne, bannerTwo, bannerThree, bannerFour], {
       yPercent: -100,
     }).to([bannerOne, bannerTwo, bannerThree, bannerFour], {
+      // delay:3,
       yPercent: 0,
       stagger: 0.2,
       onComplete: () => {
