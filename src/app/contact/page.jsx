@@ -73,7 +73,7 @@ const Info = () => {
         <div className="mt-12">
           <ScrollHover>
             <a
-              href="mailto:falalgirma33@gmail.com"
+              href="mailto:jalalgirma.dev@gmail.com"
               className={`${style.text} font-bold  bg-black text-4xl text-white hover:bg-white hover:text-black`}
             >
               <p>Email</p>
@@ -111,7 +111,7 @@ const Info = () => {
 
       {/* Work Together Section */}
       <div className="overflow-y-hidden">
-        <h1 className="text-custom3 p-0">Let's work</h1>
+        <h1 className="text-custom3 p-0">Let&apos;s work</h1>
         <h1 className="text-custom3 text-right">together</h1>
       </div>
     </div>

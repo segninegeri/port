@@ -11,7 +11,7 @@ function Index() {
         data-scroll-speed={0.1}
         className="hidden md:block relative -top-96 text-5xl left-32 z-10 font-extrabold"
       >
-        'wanna know <br />
+        &apos;wanna know <br />
         about me?{" "}
       </div>
       <div className="hidden md:flex h-full  w-1/4 items-center relative bottom-24 ">
