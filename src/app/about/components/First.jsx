@@ -28,7 +28,7 @@ function First() {
   return (
     <main
       ref={containerRef}
-      className="relative h-screen overflow-x-hidden pt-16"
+      className="relative h-screen overflow-hidden pt-16"
     >
       {/* Rotating Image */}
       <MotionImage
