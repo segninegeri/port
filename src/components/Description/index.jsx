@@ -5,7 +5,7 @@ import Text from "./Tools/Index";
 import styles from "./style.module.scss";
 function Index() {
   return (
-    <div className="font-ablition h-screen border-b text-white text-4xl flex items-center justify-center px-12">
+    <div className="font-ablition h-screen text-white text-4xl flex items-center justify-center px-12">
       <div
         data-scroll
         data-scroll-speed={0.1}
