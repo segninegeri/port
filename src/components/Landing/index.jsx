@@ -73,7 +73,7 @@ const y = useTransform(scrollYProgress, [0, 1], [-500, 0]);
           ref={container}
           style={{ x }}
           variants={slideUp}
-          className="absolute bottom-16 left-8 "
+          className="absolute bottom-2 left-8 "
         >
           {socialLinks.map((link) => (
             <Magnet key={link.href}>
