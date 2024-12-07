@@ -65,7 +65,7 @@ const Info = () => {
   ];
 
   return (
-    <div className="flex flex-col justify-between bg-black pt-64 px-12 text-white h-screen font-ablition">
+    <div className="flex flex-col justify-between overflow-hidden bg-black pt-64 px-12 text-white h-screen font-ablition">
       {/* Contact Details Section */}
       <div className="text-4xl leading-10">
         <SectionHeader title="Contact Details" />

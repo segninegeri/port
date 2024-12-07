@@ -9,7 +9,7 @@ function First() {
   // useScroll needs a valid `target` element
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["end start", "end end"],
+    offset: ["end start", "start start"],
   });
 
   // Motion values for animations
