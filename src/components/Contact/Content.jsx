@@ -23,9 +23,9 @@ const SocialLinks = ({ links }) => (
 
 // Title Section Component
 const TitleSection = ({ title, subtitle, imageSrc }) => (
-  <div className="flex gap-4 items-center ">
+  <div className="flex gap-4 items-center pointer-events-none">
     <div className={`${styles.imageContainer} ${styles.resImg}`}>
-      <Image fill={true} alt={"image"} src={imageSrc} />
+      <Image fill={true} alt={"image"} src={imageSrc}  />
     </div>
     <div>
       <h2 className={`${styles.resText}`}>{title}</h2>
@@ -60,12 +60,12 @@ export default function Content() {
   ];
 
   return (
-    <div className="bg-white text-black h-full w-full flex flex-col justify-evenly font-ablition">
+    <div className="bg-white text-black h-full w-full flex flex-col justify-evenly font-ablition overflow-y-hidden">
       <div className={`${styles.pad} font-extrabold`}>
         <TitleSection
           title="Let's work"
           subtitle="together"
-          imageSrc="/images/photo_2024-11-24_07-10-34.jpg"
+          imageSrc="/images/contact.webp"
         />
       </div>
 

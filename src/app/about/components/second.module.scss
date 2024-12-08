@@ -1,9 +1,11 @@
 .imageContainer {
   position: relative;
   overflow: hidden;
-
   img {
     object-fit: cover;
+    object-position: 10% 40%;
+   user-select: none;
+      pointer-events: none;
   }
 }
 .stroke {

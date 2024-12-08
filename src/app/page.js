@@ -27,9 +27,9 @@ export default function Home() {
 
   return (
     <main className='bg-black'>
-      <AnimatePresence mode='wait'>
+      {/* <AnimatePresence mode='wait'>
         {isLoading && <Preloader />}
-      </AnimatePresence>
+      </AnimatePresence> */}
       <Landing />
       <Description />
       <Projects />

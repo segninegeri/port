@@ -4,10 +4,7 @@
 }
 
 .imageContainer {
-  // width: clamp(3rem, 8vw, 8rem);
   width: clamp(4rem, 8vw, 11rem);
-
-  // height: clamp(3rem, 8vw, 8rem);
   height: clamp(4rem, 8vw, 11rem);
 
   position: relative;
@@ -15,6 +12,8 @@
   overflow: hidden;
 
   img {
+    user-select: none;
+    pointer-events: none;
     object-fit: cover;
   }
 }

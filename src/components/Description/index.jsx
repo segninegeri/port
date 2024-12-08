@@ -14,17 +14,17 @@ function Index() {
         &apos;wanna know <br />
         about me?{" "}
       </div>
-      <div className="hidden md:flex h-full  w-1/4 items-center relative bottom-24 ">
+      <div className="hidden md:flex h-full  w-1/3 items-center relative bottom-24 ">
         <div
           data-scroll
           data-scroll-speed={1}
           className={`${styles.imageContainer}  h-3/4 flex-1 `}
         >
           <Image
-            src={"/images/photo_2024-11-24_07-10-34.jpg"}
+            src={"/images/main.webp"}
             alt=""
             fill
-            className="object-cover "
+            className="object-cover transform rotate-[4deg]"
           />
         </div>
       </div>

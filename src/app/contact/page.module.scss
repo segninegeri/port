@@ -5,6 +5,8 @@
 
       img {
         object-fit: cover;
+         user-select: none;
+      // pointer-events: none;
       }}
 
       @media (max-width:600px) {

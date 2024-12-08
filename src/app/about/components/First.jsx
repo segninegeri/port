@@ -14,7 +14,7 @@ function First() {
 
   // Motion values for animations
   const rotate = useTransform(scrollYProgress, [0, 1], [0, 360]);
-  const yTransform = useTransform(scrollYProgress, [0, 1], [-500, 0]);
+  const yTransform = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
   // Reusable Motion Image Component
   const MotionImage = ({ styleProps, className, src, alt, size }) => (

@@ -4,8 +4,10 @@ import style from "./second.module.scss";
 function Second() {
   return (
     <div className="px-12 flex gap-12 h-[50vh] my-12 ">
-      <div className={`${style.imageContainer} hidden md:block w-[30rem] h-[30rem]`}>
-        <Image alt="" fill src={"/images/photo_2024-11-24_07-10-34.jpg"} />
+      <div
+        className={`${style.imageContainer} hidden md:block w-[100rem] h-full`}
+      >
+        <Image alt="" fill src={"/images/about.webp"} />
       </div>
       <div className="self-center mb-12">
         <p className="text-white text-3xl font-extrabold md:font-semibold md:text-5xl mb-16 text-justify ">
