@@ -18,13 +18,13 @@ function Index() {
         <div
           data-scroll
           data-scroll-speed={1}
-          className={`${styles.imageContainer}  h-3/4 flex-1 `}
+          className={`${styles.imageContainer}  h-3/4 flex-1`}
         >
           <Image
             src={"/images/main.webp"}
             alt=""
             fill
-            className="object-cover transform rotate-[4deg]"
+            className="object-cover  transform rotate-[4deg]"
           />
         </div>
       </div>
