@@ -1,35 +1,35 @@
 .svg {
-    height: 180px;
-    width: 180px;
+  height: 180px;
+  width: 180px;
 }
 .line {
-    stroke: #fff;
-    stroke-width: 1;
-    fill: transparent;
-    stroke-dasharray: 3200;
-    stroke-dashoffset: 3200;
-    animation: animate 15s ease-in-out 4s forwards;
+  stroke: #fff;
+  stroke-width: 1;
+  fill: transparent;
+  stroke-dasharray: 3200;
+  stroke-dashoffset: 3200;
+  animation: animate 15s ease-in-out 4.5s forwards;
 }
 @keyframes animate {
-    to {
-        stroke-dashoffset: 0;
-    }
+  to {
+    stroke-dashoffset: 0;
+  }
 }
 @media (max-width: 550px) {
   .svg {
-    height: 130px; /* Adjusted size */
-    width: 130px;  /* Adjusted size */
+    height: 130px;
+    width: 130px;
   }
 }
 @media (max-width: 410px) {
   .svg {
-    height: 100px; /* Adjusted size */
-    width: 100px;  /* Adjusted size */
+    height: 100px;
+    width: 100px;
   }
 }
 @media (max-width: 320px) {
   .svg {
-    height: 70px; /* Adjusted size */
-    width: 70px;  /* Adjusted size */
+    height: 70px;
+    width: 70px;
   }
 }

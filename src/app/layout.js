@@ -1,6 +1,7 @@
 import './globals.css'
 import Header from '../components/FHeader';
 import localfont from 'next/font/local'
+import Head from 'next/head';
 
 const ablition = localfont({
   src: "../../public/Fonts/Ablation.otf",
