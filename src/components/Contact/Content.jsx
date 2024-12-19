@@ -36,28 +36,28 @@ const TitleSection = ({ title, subtitle, imageSrc }) => (
 
 // Main Content Component
 export default function Content() {
-  const socialLinks = [
-    {
-      src: "/images/socials/telegram.svg",
-      alt: "Telegram",
-      href: "https://t.me/theglitch2025",
-    },
-    {
-      src: "/images/socials/linkedin.svg",
-      alt: "LinkedIn",
-      href: "https://www.linkedin.com/in/jalal-girma/",
-    },
-    {
-      src: "/images/socials/twitter.svg",
-      alt: "Twitter",
-      href: "https://twitter.com/jalalgirma",
-    },
-    {
-      src: "/images/socials/github.svg",
-      alt: "GitHub",
-      href: "https://github.com/jalalgirma",
-    },
-  ];
+   const socialLinks = [
+     {
+       src: "/images/socials/telegram.svg",
+       alt: "Telegram",
+       href: "https://t.me/theglitch2025",
+     },
+     {
+       src: "/images/socials/linkedin.svg",
+       alt: "LinkedIn",
+       href: "https://www.linkedin.com/in/jalalgirma2025/",
+     },
+     {
+       src: "/images/socials/twitter.svg",
+       alt: "Twitter",
+       href: "https://twitter.com/jalalgirma",
+     },
+     {
+       src: "/images/socials/github.svg",
+       alt: "GitHub",
+       href: "https://github.com/jalalgirma",
+     },
+   ];
 
   return (
     <div className="bg-white text-black h-full w-full flex flex-col justify-evenly font-ablition overflow-y-hidden">

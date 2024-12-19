@@ -22,28 +22,28 @@ const { scrollYProgress } = useScroll({
 const x = useTransform(scrollYProgress, [0, 1], [-100,0]);
 const y = useTransform(scrollYProgress, [0, 1], [-500, 0]);
 
-  const socialLinks = [
-    {
-      src: "/images/socials/telegram.svg",
-      alt: "Telegram",
-      href: "https://t.me/theglitch2025",
-    },
-    {
-      src: "/images/socials/linkedin.svg",
-      alt: "LinkedIn",
-      href: "https://www.linkedin.com/in/jalal-girma",
-    },
-    {
-      src: "/images/socials/twitter.svg",
-      alt: "Twitter",
-      href: "https://x.com/jalalgirma",
-    },
-    {
-      src: "/images/socials/github.svg",
-      alt: "GitHub",
-      href: "https://github.com/jalalgirma",
-    },
-  ];
+   const socialLinks = [
+     {
+       src: "/images/socials/telegram.svg",
+       alt: "Telegram",
+       href: "https://t.me/theglitch2025",
+     },
+     {
+       src: "/images/socials/linkedin.svg",
+       alt: "LinkedIn",
+       href: "https://www.linkedin.com/in/jalalgirma2025/",
+     },
+     {
+       src: "/images/socials/twitter.svg",
+       alt: "Twitter",
+       href: "https://x.com/jalalgirma",
+     },
+     {
+       src: "/images/socials/github.svg",
+       alt: "GitHub",
+       href: "https://github.com/jalalgirma",
+     },
+   ];
 
   const slider = useRef(null);
   let direction = -1;

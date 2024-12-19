@@ -45,12 +45,12 @@ const Info = () => {
     {
       src: "/images/socials/instagram.svg",
       alt: "Instagram",
-      href: "https://www.instagram.com/jalalgirma",
+      href: "https://www.instagram.com/theglitcha",
     },
     {
       src: "/images/socials/linkedin.svg",
       alt: "LinkedIn",
-      href: "https://www.linkedin.com/in/jalal-girma-663090340/",
+      href: "https://www.linkedin.com/in/jalalgirma2025/",
     },
     {
       src: "/images/socials/twitter.svg",
@@ -63,6 +63,7 @@ const Info = () => {
       href: "https://github.com/jalalgirma",
     },
   ];
+
 
   return (
     <div className="flex flex-col justify-between overflow-hidden bg-black pt-64 px-12 text-white h-screen font-ablition">
