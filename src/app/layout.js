@@ -2,7 +2,7 @@ import './globals.css'
 import Header from '../components/FHeader';
 import localfont from 'next/font/local'
 import Head from 'next/head';
-
+import { Analytics } from "@vercel/analytics/react"
 const ablition = localfont({
   src: "../../public/Fonts/Ablation.otf",
   weight: "400",
@@ -35,6 +35,8 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
+        <Analytics />
+
       </body>
     </html>
   )
