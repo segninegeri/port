@@ -17,7 +17,7 @@ const giorgia = localfont({
 )
 
 export const metadata = {
-  title: 'Jalal Girma',
+  title: 'Segni Negeri',
   description: 'Full Stack Web Developer specializing in the MERN stack, Next.js, and creating high-performance, interactive web applications. Passionate about delivering clean, user-friendly, and scalable solutions.',
  
 }

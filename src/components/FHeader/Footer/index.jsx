@@ -12,7 +12,7 @@ function index() {
             className={`${styles.text} font-extrabold bg-white text-black hover:bg-black hover:text-white`}
           >
             <p>Email</p>
-            <p>jalalgirma.dev@gmail.com</p>
+            <p>segninegeri.dev@gmail.com</p>
 
             <span className={`${styles.span} font-extrabold max bg-black text-white`}>
               100% chance I read it

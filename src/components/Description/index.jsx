@@ -21,7 +21,7 @@ function Index() {
           className={`${styles.imageContainer}  h-3/4 flex-1`}
         >
           <Image
-            src={"/images/main.webp"}
+            src={"/images/sgni_black.webp"}
             alt=""
             fill
             className="object-cover  transform rotate-[4deg]"

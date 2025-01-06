@@ -4,11 +4,11 @@ import style from "./second.module.scss";
 function Second() {
   return (
     <div className="px-12 flex gap-12 h-[50vh] my-12 ">
-      <div
+      {/* <div
         className={`${style.imageContainer} hidden md:block w-[100rem] h-full`}
       >
         <Image alt="" fill src={"/images/about.webp"} />
-      </div>
+      </div> */}
       <div className="self-center mb-12">
         <p className="text-white text-3xl font-extrabold md:font-semibold md:text-5xl mb-16 text-justify ">
           For me, coding is not just a career—it’s a craft. I love solving

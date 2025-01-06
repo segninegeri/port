@@ -50,7 +50,7 @@ const Info = () => {
     {
       src: "/images/socials/linkedin.svg",
       alt: "LinkedIn",
-      href: "https://www.linkedin.com/in/jalalgirma2025/",
+      href: "https://www.linkedin.com/in/segni-negeri-02a3b6290/",
     },
     {
       src: "/images/socials/twitter.svg",
@@ -78,7 +78,7 @@ const Info = () => {
               className={`${style.text} font-bold  bg-black text-4xl text-white hover:bg-white hover:text-black`}
             >
               <p>Email</p>
-              <p>jalalgirma.dev@gmail.com</p>
+              <p>segninegeri.dev@gmail.com</p>
               <span
                 className={`${style.span} font-bold  bg-white text-3xl text-black`}
               >

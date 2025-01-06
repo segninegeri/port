@@ -45,7 +45,7 @@ export default function Content() {
      {
        src: "/images/socials/linkedin.svg",
        alt: "LinkedIn",
-       href: "https://www.linkedin.com/in/jalalgirma2025/",
+       href: "https://www.linkedin.com/in/segni-negeri-02a3b6290/",
      },
      {
        src: "/images/socials/twitter.svg",
@@ -65,7 +65,7 @@ export default function Content() {
         <TitleSection
           title="Let's work"
           subtitle="together"
-          imageSrc="/images/contact.webp"
+          imageSrc="/images/sgni_black.webp"
         />
       </div>
 

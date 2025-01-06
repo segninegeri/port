@@ -31,7 +31,7 @@ const y = useTransform(scrollYProgress, [0, 1], [-500, 0]);
      {
        src: "/images/socials/linkedin.svg",
        alt: "LinkedIn",
-       href: "https://www.linkedin.com/in/jalalgirma2025/",
+       href: "https://www.linkedin.com/in/segni-negeri-02a3b6290/",
      },
      {
        src: "/images/socials/twitter.svg",
