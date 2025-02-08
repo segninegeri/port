@@ -41,7 +41,7 @@ const y = useTransform(scrollYProgress, [0, 1], [-500, 0]);
      {
        src: "/images/socials/github.svg",
        alt: "GitHub",
-       href: "https://github.com/jalalgirma",
+       href: "https://github.com/segninegeri/",
      },
    ];
 
