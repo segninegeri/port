@@ -60,7 +60,7 @@ const Info = () => {
     {
       src: "/images/socials/github.svg",
       alt: "GitHub",
-      href: "https://github.com/jalalgirma",
+      href: "https://github.com/segninegeri",
     },
   ];
 
