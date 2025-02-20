@@ -6,6 +6,7 @@ import Landing from '../components/Landing';
 import Projects from '../components/Projects';
 import Description from '../components/Description';
 import Contact from '../components/Contact';
+import { Analytics } from '@vercel/analytics/react';
 export default function Home() {
 
   const [isLoading, setIsLoading] = useState(true);
@@ -26,6 +27,7 @@ export default function Home() {
   }, [])
 
   return (
+    <>
     <main className='bg-black'>
       <AnimatePresence mode='wait'>
         {isLoading && <Preloader />}
@@ -34,6 +36,9 @@ export default function Home() {
       <Description />
       <Projects />
       <Contact />
-    </main>
+      </main>
+      <Analytics/>
+    </>
   )
 }
+
