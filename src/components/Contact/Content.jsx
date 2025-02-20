@@ -40,7 +40,7 @@ export default function Content() {
      {
        src: "/images/socials/telegram.svg",
        alt: "Telegram",
-       href: "https://t.me/theglitch2025",
+       href: "https://t.me/machiavellijg",
      },
      {
        src: "/images/socials/linkedin.svg",
@@ -55,7 +55,7 @@ export default function Content() {
      {
        src: "/images/socials/github.svg",
        alt: "GitHub",
-       href: "https://github.com/jalalgirma",
+       href: "https://github.com/segninegeri",
      },
    ];
 

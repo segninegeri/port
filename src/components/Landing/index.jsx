@@ -26,7 +26,7 @@ const y = useTransform(scrollYProgress, [0, 1], [-500, 0]);
      {
        src: "/images/socials/telegram.svg",
        alt: "Telegram",
-       href: "https://t.me/theglitch2025",
+       href: "https://t.me/machiavellijg",
      },
      {
        src: "/images/socials/linkedin.svg",

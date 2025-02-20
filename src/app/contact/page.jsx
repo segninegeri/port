@@ -40,12 +40,12 @@ const Info = () => {
     {
       src: "/images/socials/telegram.svg",
       alt: "Telegram",
-      href: "https://t.me/theglitch2025",
+      href: "https://t.me/machiavellijg",
     },
     {
       src: "/images/socials/instagram.svg",
       alt: "Instagram",
-      href: "https://www.instagram.com/theglitcha",
+      href: "https://www.instagram.com/machiavellijg",
     },
     {
       src: "/images/socials/linkedin.svg",
