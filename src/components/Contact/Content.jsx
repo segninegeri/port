@@ -11,7 +11,7 @@ const SocialLinks = ({ links }) => (
   <div className="flex justify-around">
     {links.map((link) => (
       <Magnet key={link.href}>
-        <div className={`${styles.imageContainer} invert w-16 h-16 my-4`}>
+        <div className={`${styles.imageContainerIcon} invert w-16 h-16 my-4`}>
           <a href={link.href} target="_blank" rel="noopener noreferrer">
             <Image src={link.src} alt={link.alt} fill />
           </a>

@@ -1,14 +1,18 @@
-.imageContainer {
+.imageContainer,
+.imageContainerIcon {
   position: relative;
-  // border-radius: 50%;
   overflow: hidden;
 
   img {
     object-fit: cover;
-     user-select: none;
-      // pointer-events: none;
+    user-select: none;
   }
 }
+
+.imageContainer {
+  border-radius: 50%;
+}
+
 .pad {
   padding: 0 8rem;
 }
